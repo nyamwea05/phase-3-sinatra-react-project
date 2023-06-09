@@ -30,3 +30,31 @@ class ApplicationController < Sinatra::Base
   # ... other routes
 end
 
+put "/tasks/:id" do
+  task = Task.find(params[:id])
+  if task.update(
+    text: params[:text],
+    title: params[:title],
+    category: params[:category],
+    due_date: params[:dueDate],
+    start_time: params[:startTime],
+    end_time: params[:endTime],
+    priority: params[:priority],
+    description: params[:description]
+  )
+    task.to_json
+  else
+    status 400
+    { message: "Failed to update task." }.to_json
+  end
+end
+
+delete "/tasks/:id" do
+  task = Task.find(params[:id])
+  if task.destroy
+    { message: "Task successfully deleted." }.to_json
+  else
+    status 400
+    { message: "Failed to delete task." }.to_json
+  end
+end
