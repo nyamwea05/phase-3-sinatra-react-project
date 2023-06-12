@@ -1,4 +1,13 @@
-# Task Manager Application
+                     # Task Manager Application
+
+
+
+      FRONTEND URL;
+
+             https://github.com/nyamwea05/task
+
+
+      backend ;https://github.com/nyamwea05/phase-3-sinatra-react-project/settings
 
 A Task Manager application built with [Framework/Technology] that allows users to manage and track their tasks efficiently.
 
@@ -76,6 +85,6 @@ This project is licensed under the MIT License.
 
 
 
-FRONTEND URL;
+                             FRONTEND URL;
 
              https://github.com/nyamwea05/task
