@@ -90,6 +90,4 @@ This project is licensed under the MIT License.
 
 
 
-                             FRONTEND URL;
-
-             https://github.com/nyamwea05/task
+                     
