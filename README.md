@@ -1,4 +1,4 @@
-                     # Task Manager Application
+ # Task Manager Application
 
 
 
@@ -46,25 +46,30 @@ Open your web browser and navigate to http://localhost:3000.
 Open your browser and navigate to http://localhost:9292/task.
 
 
-Usage
+                      Usage
 Register a new user account or log in with existing credentials.
 Create a new task by providing necessary details such as title, description, due date, etc.
 View, update, or delete tasks from the task list.
 Mark tasks as complete and track their progress.
 Use the filtering and sorting options to organize tasks based on priority, due date, category, etc.
 Logout from the application when finished.
-API Documentation
+
+
+
+            API Documentation
 The Task Manager application provides a RESTful API for integration with other services or platforms. Refer to the API documentation for detailed information on available endpoints and request/response formats.
+
+
 
 API Routes
 The following API routes are available:
 
 
-GET /tasks: Get all tasks.
-POST /tasks: Create a new task.
-GET /tasks/:id: Get a specific task.
-PUT /tasks/:id: Update a specific task.
-DELETE /tasks/:id: Delete a specific task.
+.GET /tasks: Get all tasks.
+.POST /tasks: Create a new task.
+.GET /tasks/:id: Get a specific task.
+.PUT /tasks/:id: Update a specific task.
+.DELETE /tasks/:id: Delete a specific task.
 
 
 
